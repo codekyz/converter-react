@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #bb8082;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Serif", sans-serif;
+}
+
+#root {
+  padding: 10px;
+  color: #046582;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app_title {
+  font-family: "Noto Serif Display", serif;
+  font-size: 60px;
+}
+
+.app_drop_down {
+  width: 100%;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #046582;
+  background-color: #6e7582;
+  color: white;
+}
+
+.app_drop_down:focus {
+  outline: none;
+}
+
+.app_unit {
+  width: 100%;
+  padding: 8px;
+}
+
+.app_footer {
+  width: 100%;
+  margin-top: 50px;
+  padding: 16px;
+  border-top: #6e7582 1px solid;
+  text-align: center;
+}
+
+.app_footer a {
+  font-size: small;
+  color: #6e7582;
+  text-decoration: none;
+}
+
+.unit {
+  margin-top: 24px;
+}
+
+.unit_input {
+  margin: 10px 0px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.unit_input input {
+  width: 100%;
+  margin-left: 8px;
+  padding: 8px 16px;
+  background-color: #f39189;
+  border: none;
+  border-bottom: #046582 1px solid;
+}
+
+.unit_input input:focus {
+  outline: none;
+}
+
+.btns {
+  text-align: center;
+}
+
+.btn {
+  width: 120px;
+  margin: 30px 8px 0px 8px;
+  padding: 16px 0px;
+  background-color: #6e7582;
+  color: #fff;
+  border: #046582 1px solid;
+}
+
+.btn:hover {
+  background-color: #046582;
+}
